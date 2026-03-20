@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 {
   "version": 1,
   "author": "Conner Nguyen",
@@ -22,29 +21,4 @@
     [ "oled1:SDA", "esp:13", "green", [ "v0" ] ]
   ],
   "dependencies": {}
-=======
-{
-  "version": 1,
-  "author": "Conner Nguyen",
-  "editor": "wokwi",
-  "parts": [
-    { "type": "board-esp32-s3-devkitc-1", "id": "esp", "top": -0.18, "left": 4.57, "attrs": {} },
-    {
-      "type": "board-ssd1306",
-      "id": "oled1",
-      "top": 262.34,
-      "left": -172.57,
-      "attrs": { "i2cAddress": "0x3c" }
-    }
-  ],
-  "connections": [
-    [ "esp:TX", "$serialMonitor:RX", "", [] ],
-    [ "esp:RX", "$serialMonitor:TX", "", [] ],
-    [ "esp:GND.1", "oled1:GND", "black", [ "h0" ] ],
-    [ "oled1:VCC", "esp:3V3.1", "red", [ "v0" ] ],
-    [ "oled1:SCL", "esp:12", "green", [ "v0" ] ],
-    [ "oled1:SDA", "esp:13", "green", [ "v0" ] ]
-  ],
-  "dependencies": {}
->>>>>>> 1bf320f6a7e4d2b0cd316fd79ca2050f1bcfeb7a
 }
