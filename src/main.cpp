@@ -1,4 +1,5 @@
 //Started 2026-03-07 
+//Conner Nguyen Personal Project: Dasai Mochi
 #include <Wire.h>
 #include <Adafruit_GFX.h>
 #include <Adafruit_SSD1306.h>
